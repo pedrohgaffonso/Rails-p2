@@ -204,6 +204,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails-i18n (5.1.2)
+      i18n (>= 0.7, < 2)
+      railties (>= 5.0, < 6)
     railties (5.2.1)
       actionpack (= 5.2.1)
       activesupport (= 5.2.1)
@@ -366,11 +369,12 @@ DEPENDENCIES
   pg (= 0.20.0)
   puma (~> 3.11)
   rails (~> 5.2.1)
+  rails-i18n (~> 5.1)
   sass-rails (~> 5.0)
   selenium-webdriver
   solidus
   solidus_auth_devise
-  solidus_i18n
+  solidus_i18n (~> 2.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
