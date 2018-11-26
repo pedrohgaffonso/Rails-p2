@@ -9,6 +9,7 @@ gem 'deface'
 gem 'solidus_i18n', '~> 2.0'
 gem 'rails-i18n', '~> 5.1'
 gem 'kaminari-i18n', '~> 0.5.0'
+gem 'routing-filter', '~> 0.6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
