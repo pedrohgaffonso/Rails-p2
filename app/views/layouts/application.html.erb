@@ -9,7 +9,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+<body>
+    <header>
+      <a class="toggle">Menu</a>
+      <%= render 'layouts/nav' %>
+    </header>
+      <%= yield %>
+       <footer class="acentro">
+        <%= render 'layouts/footer' %>  
+    </footer>
   </body>
 </html>
