@@ -371,18 +371,18 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   deface
   jbuilder (~> 2.5)
-  kaminari-i18n (~> 0.5.0)
+  kaminari-i18n
   listen (>= 3.0.5, < 3.2)
   pg (= 0.20.0)
   puma (~> 3.11)
   rails (~> 5.2.1)
-  rails-i18n (~> 5.1)
-  routing-filter (~> 0.6.0)
+  rails-i18n
+  routing-filter
   sass-rails (~> 5.0)
   selenium-webdriver
   solidus
   solidus_auth_devise
-  solidus_i18n (~> 2.0)
+  solidus_i18n
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
